@@ -10,7 +10,7 @@ author: CleanYANG # You :P
 description: > # Meta description of Homepage
   HONG YANG is a Second-year doctoral student in the Graduate School of Life science at the Hokkaido University.
   She is a funny person. Check this page out if don't believe it.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/HONG-s-page" # the subpath of your site, e.g. /blog
 url: "https://CleanYANG.github.io/HONG-s-page/" # the base hostname & protocol for your site, e.g. http://example.com
 
 # SEO PLUGIN
