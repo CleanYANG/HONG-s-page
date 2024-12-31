@@ -1,11 +1,11 @@
 # SITE CONFIGURATION
 title: HONG's Page  # your site title
-author: Cleanyang # You :P
+author: CleanYANG # You :P
 description: > # Meta description of Homepage
   HONG YANG is a Second-year doctoral student in the Graduate School of Life science at the Hokkaido University.
   She is a funny person. Check this page out if don't believe it.
 baseurl: "/HONG-s-page" # the subpath of your site, e.g. /blog
-url: "https://cleanyang.github.io/HONG-s-page/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://CleanYANG.github.io/HONG-s-page/" # the base hostname & protocol for your site, e.g. http://example.com
 
 # SEO PLUGIN
 social:
