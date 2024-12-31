@@ -1,9 +1,10 @@
 <header class="header" itemscope itemtype="http://schema.org/SiteNavigationElement" aria-label="Main navigation">
   <div class="container">
     <div class="header__inner">
-      <a class="header__logo" href="{{ '/' | relative_url }}">
+      <a class="header__logo" href="javascript:void(0);" id="hong-refresh">
         <div class="header__logo--container">
-          {% include logo.svg %}
+          <!-- Replace 'HONG' logo with clickable text -->
+          <span class="hong-text">HONG</span>
         </div>
       </a>
       <nav class="header__links">
@@ -23,3 +24,23 @@
     </div>
   </div>
 </header>
+
+<!-- JavaScript to refresh the page when 'HONG' is clicked -->
+<script>
+  document.getElementById('hong-refresh').addEventListener('click', function() {
+    location.reload();
+  });
+</script>
+
+<!-- Optional styling for 'HONG' -->
+<style>
+  .hong-text {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+  }
+  .hong-text:hover {
+    color: #007BFF;
+  }
+</style>
