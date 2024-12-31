@@ -1,5 +1,11 @@
 # SITE CONFIGURATION
-title: HONG's Page  # your site title
+title: "HONG's Page"
+title_font: "Century"
+title_font_size: "2.652em"
+title_font_color: "black"
+tagline_font: "Century"
+tagline_font_size: "1.5em"
+tagline_font_color: "black" # your site title
 author: CleanYANG # You :P
 description: > # Meta description of Homepage
   HONG YANG is a Second-year doctoral student in the Graduate School of Life science at the Hokkaido University.
@@ -20,14 +26,12 @@ navigation: # Navigation links
   - {name: 'Contact', link: '/contact'}
 
 tagline: >
-  HONG YANG is a Second-year doctoral student in the Graduate School of Life science at the Hokkaido University.
-  She is a funny person. Check this page out if you don't believe it.
+ HONG is a funny person. she is a second-year phD student in the Graduate School of Life Science at the Hokkaido University, Japan.
 
 hero_img: posts/sleek_lg.jpg # Main background image: use the path from /assets/img/ => This will output /assets/img/posts/sleek_lg.jpg
 
 email: hongyang9710@gamil.com # email for form submission
 
-twitter_username: I don't have one # replace with your_twitter_username or comment to remove link from footer
 github_username:  Cleanyang # replace with your_github_username or comment to remove link from footer
 instagram_username: Redynag # replace with your_instagram_username or comment to remove link from footer
 
