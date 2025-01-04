@@ -11,7 +11,7 @@ description: > # Meta description of Homepage
   HONG YANG is a Second-year doctoral student in the Graduate School of Life science at the Hokkaido University.
   She is a funny person. Check this page out if don't believe it.
 baseurl: "/HONG-s-page" # the subpath of your site, e.g. /blog
-url: "https://cleanyang.github.io/HONG-s-page/" # the base hostname & protocol for your site, e.g. http://example.com
+url: " "https://cleanyang.github.io"" # the base hostname & protocol for your site, e.g. http://example.com
 
 # SEO PLUGIN
 social:
@@ -28,7 +28,7 @@ navigation: # Navigation links
 tagline: >
  HONG is a funny person. she is a second-year phD student in the Graduate School of Life Science at the Hokkaido University, Japan.
 
-hero_img: /assets/img/posts/Background.png # Main background image: use the path from /assets/img/ => This will output /assets/img/posts/sleek_lg.jpg
+hero_img: /assets/img/posts/Background.jpg # Main background image: use the path from /assets/img/ => This will output /assets/img/posts/sleek_lg.jpg
 
 email: hongyang9710@gamil.com # email for form submission
 
