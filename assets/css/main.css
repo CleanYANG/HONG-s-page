@@ -93,12 +93,12 @@ body{background-color:#fff;font-family:'Century', serif;font-size:1rem;line-heig
 
 /* Apply a larger font size to h1 inside the blog */
 .blog h1 {
-    font-size: 1.5rem; /* Larger font size for headings */
+    font-size: 1.3rem; /* Larger font size for headings */
 }
 
 /* Apply specific font size for paragraphs within the post content */
 .post-content p {
-    font-size: 1.5rem; /* Larger font size for paragraphs */
+    font-size: 1.2rem; /* Larger font size for paragraphs */
     line-height: 1.8; /* Adjust line height for readability */
 }
 
@@ -109,11 +109,11 @@ body{background-color:#fff;font-family:'Century', serif;font-size:1rem;line-heig
 
 /* Optional: Adjust font size for other heading levels (h2, h3) */
 .post-content h2 {
-    font-size: 1.75rem; /* Font size for h2 */
+    font-size: 1.2rem; /* Font size for h2 */
 }
 
 .post-content h3 {
-    font-size: 1.5rem; /* Font size for h3 */
+    font-size: 1.2rem; /* Font size for h3 */
 }
 
 
