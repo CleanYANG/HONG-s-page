@@ -26,7 +26,7 @@ navigation: # Navigation links
   - {name: 'Contact', link: '/contact'}
 
 tagline: >
- HONG is a funny person. she is a second-year phD student in the Graduate School of Life Science at the Hokkaido University, Japan.
+ HONG is a funny person.
 
 hero_img: /assets/img/posts/Background.jpg # Main background image: use the path from /assets/img/ => This will output /assets/img/posts/sleek_lg.jpg
 

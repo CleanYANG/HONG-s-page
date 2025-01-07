@@ -17,9 +17,12 @@ Let's break down those terms. When we look at long noncoding RNAs, we are questi
 
 Spermatogenesis... wow, it is a long term, for God's sake. It only tells one thing: gene regulation during the formation of sperm in the mouse testes. That's it. Generating healthy sperm is not easy. The graph here is showing spermatogenesis. Let me prepare a boring explanation from here... In the mouse testes, there are many seminiferous tubules. Within the tubules, spermatogonia undergo self-renewal and differentiation to maintain their numbers and form the primary spermatocytes. These primary spermatocytes will give rise to spermatids eventually by meiosis. The shape of these cells is mostly round, flat, or fusiform, like a croissant (Don't hate me). Spermatids go through the final step, spermiogenesis, which is simple: they change shape, get tails, and pack all the genome information in the head. Germ cells are luckier than most of us. They get two housekeepers. Leydig cells undergo steroidogenesis to produce testosterone outside of tubules, and Sertoli cells regulate genes required for spermatogenesis. See, nothing is really complicated.
 
-![spermatogenesis](https://raw.githubusercontent.com/CleanYANG/HONG-s-page/main/assets/img/spermatogenesis.jpg)
-![Seminiferous tubules](https://raw.githubusercontent.com/CleanYANG/HONG-s-page/main/assets/img/HEstain.jpg)
+<!-- Only include these images for this blog -->
+<div class="side-by-side-images">
+  <img src="https://raw.githubusercontent.com/CleanYANG/HONG-s-page/main/assets/img/spermatogenesis.jpg" alt="Picture 1">
+  <img src="https://raw.githubusercontent.com/CleanYANG/HONG-s-page/main/assets/img/HEstain.jpg" alt="Picture 2">
+</div>
 
 If sperm want to make it through this long journey, any genes or elements should be tightly regulated. One research study presented a large-scale evolutionary study of 11 tetrapod species and identified approximately 11,000 primate-specific lncRNAs (doi:10.1038/nature12943). lncRNAs show testes-preferential expression patterns, and GO terms suggest lncRNAs are enriched in spermatogenesis.
 
-Do you want to know what their role is in spermatogenesis now? If you don't, alright, bye.
+### Do you want to know what their role is in spermatogenesis now? If you don't, alright, bye.

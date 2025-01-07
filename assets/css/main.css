@@ -5,10 +5,10 @@ body{background-color:#fff;font-family:'Century', serif;font-size:1rem;line-heig
     min-height: 16.25rem;
     width: 100%;
     position: relative;
-    background-color: #dde5ea;
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: cover;
+    background-color: transparent; /* Ensures no background color overlay */
 }
 
 @media only screen and (min-width: 62em) {
@@ -18,17 +18,12 @@ body{background-color:#fff;font-family:'Century', serif;font-size:1rem;line-heig
     }
 }
 
-/* Remove the overlay */
-.hero::before {
-    content: none; /* No overlay */
-}
-
 .hero--small {
     margin: 3.75rem auto 0;
     min-height: 8.75rem;
     width: 100%;
     position: relative;
-    background-color: #313237;
+    background-color: transparent; /* No background color for small hero */
 }
 
 @media only screen and (min-width: 62em) {
@@ -37,10 +32,44 @@ body{background-color:#fff;font-family:'Century', serif;font-size:1rem;line-heig
     }
 }
 
-/* Remove the overlay */
+/* Remove overlay from both hero and small hero */
+.hero::before, 
 .hero--small::before {
     content: none; /* No overlay */
 }
+
+.hero__wrap {
+    position: absolute;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+    width: 100%;
+    max-width: 90%;
+    z-index: 1;
+}
+
+@media only screen and (min-width: 48em) {
+    .hero__wrap {
+        max-width: 40em;
+    }
+}
+
+.hero__wrap .hero__title {
+    font-size: 1.8em;
+    color: #fff;
+}
+
+@media only screen and (min-width: 48em) {
+    .hero__wrap .hero__title {
+        padding: 1rem 0;
+        font-size: 2.625em;
+        line-height: 3.125rem;
+    }
+}
+
 
 .page-content {
     max-width: 52.5rem;
@@ -54,12 +83,39 @@ body{background-color:#fff;font-family:'Century', serif;font-size:1rem;line-heig
     }
 }
 
+/* Style for the entire blog */
 .blog {
-    font-family: "Century", serif; /* Add this line to set the font */
-    font-size: 1.125rem;
+    font-family: "Century", serif;
+    font-size: 1.125rem; /* This applies to the general blog layout */
     line-height: 1.6;
     background-image: none;
 }
+
+/* Apply a larger font size to h1 inside the blog */
+.blog h1 {
+    font-size: 1.5rem; /* Larger font size for headings */
+}
+
+/* Apply specific font size for paragraphs within the post content */
+.post-content p {
+    font-size: 1.5rem; /* Larger font size for paragraphs */
+    line-height: 1.8; /* Adjust line height for readability */
+}
+
+/* Ensure headings inside the post are also larger */
+.post-content h1 {
+    font-size: 2rem; /* Larger font size for headings inside the post */
+}
+
+/* Optional: Adjust font size for other heading levels (h2, h3) */
+.post-content h2 {
+    font-size: 1.75rem; /* Font size for h2 */
+}
+
+.post-content h3 {
+    font-size: 1.5rem; /* Font size for h3 */
+}
+
 
 .post-list {
     padding-top: 2.5em;
@@ -96,13 +152,27 @@ body{background-color:#fff;font-family:'Century', serif;font-size:1rem;line-heig
     }
 }
 
-/* Ensure images within .post-content are displayed properly */
+/* Ensure other images in the post content are not affected */
 .post-content img {
-    max-width: 100%;
+    max-width: 100%; /* Ensures images do not exceed the container width */
     height: auto;
-    width: auto;
-    display: block; /* Ensures images are displayed as block-level elements */
-    margin: 0 auto; /* Centers the image within its container */
+    display: block;
+    margin: 0 auto;
+}
+
+/* Flexbox layout for specific side-by-side images */
+.side-by-side-images {
+    display: flex; /* Arrange images in a row */
+    gap: 10px; /* Add space between the images */
+    justify-content: center; /* Center the images horizontally */
+    align-items: center; /* Align images vertically */
+}
+
+.side-by-side-images img {
+    width: 45%; /* Adjust the width for each image */
+    height: auto; /* Maintain the image aspect ratio */
+    border-radius: 5px; /* Optional: round corners of the images */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: add shadow for aesthetics */
 }
 
 
