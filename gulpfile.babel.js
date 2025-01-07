@@ -2,30 +2,32 @@
 "use strict";
 
 // Gulp and node
-const gulp = require( "gulp" );
-const cp = require( "child_process" );
-const notify = require( "gulp-notify" );
-const size = require( "gulp-size" );
+const gulp = require("gulp");
+const cp = require("child_process");
+const notify = require("gulp-notify");
+const size = require("gulp-size");
 
 // Basic workflow plugins
-const browserSync = require( "browser-sync" );
-const browserify = require( "browserify" );
-const source = require( "vinyl-source-stream" );
-const buffer = require( "vinyl-buffer" );
-const clean = require( "gulp-clean" );
-const sass = require( "gulp-sass" );
+const browserSync = require("browser-sync");
+const browserify = require("browserify");
+const babelify = require('babelify');
+const source = require("vinyl-source-stream");
+const buffer = require("vinyl-buffer");
+const clean = require("gulp-clean");
+const sass = require("gulp-sass");
 const jekyll = process.platform === "win32" ? "jekyll.bat" : "jekyll";
 const messages = {
     jekyllBuild: "<span style=\"color: grey\">Running:</span> $ jekyll build"
 };
 
 // Performance workflow plugins
-const htmlmin = require( "gulp-htmlmin" );
-const prefix = require( "gulp-autoprefixer" );
-const sourcemaps = require( "gulp-sourcemaps" );
-const uglify = require( "gulp-uglify" );
-const critical = require( "critical" );
-const sw = require( "sw-precache" );
+const htmlmin = require("gulp-htmlmin");
+const prefix = require("gulp-autoprefixer");
+const sourcemaps = require("gulp-sourcemaps");
+const uglify = require("gulp-uglify");
+const critical = require("critical");
+const workboxBuild = require("workbox-build");
+
 
 // Image Generation
 const responsive = require( "gulp-responsive" );
@@ -72,7 +74,7 @@ gulp.task( "sass", () => {
 //  JS
 gulp.task( "js", () => {
   return browserify( src.js, { debug: true, extensions: [ "es6" ] } )
-    .transform( "babelify", { presets: [ "es2015" ] } )
+    .transform(babelify, { presets: ["@babel/preset-env"] })
     .bundle()
     .on( "error", handleErrors )
     .pipe( source( "bundle.js" ) )
