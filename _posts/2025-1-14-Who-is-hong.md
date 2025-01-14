@@ -33,14 +33,13 @@ She couldn't make it to be a professional athlete because she loves biology more
 She is a sports person. She has played foil for almost one year in the school club. 
 <!-- Only include these images for this blog -->
 <div class="side-by-side-images">
-  <img src="https://raw.githubusercontent.com/CleanYANG/HONG-s-page/main/assets/img/workout.jpeg" alt="Picture 1">
-  <img src="https://raw.githubusercontent.com/CleanYANG/HONG-s-page/main/assets/img/fence.jpeg" alt="Picture 2">
+  <img src="https://raw.githubusercontent.com/CleanYANG/HONG-s-page/main/assets/img/Snow.jpeg" alt="Picture 1">
+  <img src="https://raw.githubusercontent.com/CleanYANG/HONG-s-page/main/assets/img/fence.jpg" alt="Picture 2">
 </div>
 ## Basketball
 She is a defender but not good at it
 ## Snowboarding
 This is her favorite winter sports. She goes to snowbparding once a week.
-![snowboarding](https://raw.githubusercontent.com/CleanYANG/HONG-s-page/main/assets/img/Snow.jpeg)
 
 ## Learning different languages
 She can rap in southern Chinese dialect and speak mandarin. Japanese is not a big challenge of course. She is learning spanish seriously and slowly now. 
