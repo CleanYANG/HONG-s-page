@@ -36,10 +36,11 @@ She is a sports person. She has played foil for almost one year in the school cl
   <img src="https://raw.githubusercontent.com/CleanYANG/HONG-s-page/main/assets/img/Snow.jpeg" alt="Picture 1">
   <img src="https://raw.githubusercontent.com/CleanYANG/HONG-s-page/main/assets/img/fence.jpg" alt="Picture 2">
 </div>
+
 ## Basketball
 She is a defender but not good at it
 ## Snowboarding
-This is her favorite winter sports. She goes to snowbparding once a week.
+This is her favorite winter sports. She goes to snowboarding once a week.
 
 ## Learning different languages
 She can rap in southern Chinese dialect and speak mandarin. Japanese is not a big challenge of course. She is learning spanish seriously and slowly now. 
