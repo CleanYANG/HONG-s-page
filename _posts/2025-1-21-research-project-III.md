@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Research Project I
+title: Research Project III
 featured-img: cover5
 thumbnail-img: cover5_thumb
 ---
-
-## The function of **Stgart** is more than those.
-One weired and complicate thing I have to tell you is , the expression of *Star* and other steroidogenic genes such as, *Hsd3b1* and *Cyp11a1* were increased in the *Stgart*-KO testis according to RNA-seq data. The expression of *Star* is actually increased in the **Stgart**-overexpressed cells.
+# Project *III* : Stgart in energy metabolism.
+## The function of *Stgart* is more than those.
+One weired and complicate thing I have to tell you is , the expression of *Star* and other steroidogenic genes such as, *Hsd3b1* and *Cyp11a1* were increased in the *Stgart*-KO testis according to RNA-seq data. The expression of *Star* is actually increased in the *Stgart*-overexpressed cells.
 This is conflicted with the hypothesis which assumes *Stgart* is a positive regulator of *Star*. What clues I have missed ?
 ## First, let's look through all the process of steroidogenesis.
 LH hormone is released from pituitary and received by its receptor then activite a membrane protein, adenylate cyclase(AC). Then AC catalysis ATP to cAMP which activate Protein Kinase A(PKA) to trigger the activation *Star* protein. The transport and clevage of chosterol is happening on/in the mitochandria. Taking the notes here! The simulation of active *Star* protein needs ATP and part of steroidogenesis is taken place in the mitochandria.
@@ -16,7 +16,9 @@ Most ATP is systhesised from mitochandria. Clue is Mitochandria ! *Stgart* might
   <img src="https://raw.githubusercontent.com/CleanYANG/HONG-s-page/main/assets/img/leydig.jpg" alt="Picture 1">
   <img src="https://raw.githubusercontent.com/CleanYANG/HONG-s-page/main/assets/img/germ.jpg" alt="Picture 2">
 </div>
+
 ## 'Excellent !' I cried, 'Elementary'
+
 Let's zoom in. What is happening in the mitochandria ?
 <!-- Only include these images for this blog -->
 <div class="side-by-side-images">
