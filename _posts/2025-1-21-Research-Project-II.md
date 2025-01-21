@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Research Project I
-featured-img: cover5
-thumbnail-img: cover5_thumb
+featured-img: cover4
+thumbnail-img: cover4_thumb
 ---
 ## What else the **Stgart** can do
 In 2021, my senior Kai Otsuka figured out that **Stgart** is a regulator of steroidogenesis.

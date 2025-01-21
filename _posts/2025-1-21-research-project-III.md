@@ -10,11 +10,12 @@ One weired and complicate thing I have to tell you is , the expression of *Star*
 This is conflicted with the hypothesis which assumes *Stgart* is a positive regulator of *Star*. What clues I have missed ?
 ## First, let's look through all the process of steroidogenesis.
 LH hormone is released from pituitary and received by its receptor then activite a membrane protein, adenylate cyclase(AC). Then AC catalysis ATP to cAMP which activate Protein Kinase A(PKA) to trigger the activation *Star* protein. The transport and clevage of chosterol is happening on/in the mitochandria. Taking the notes here! The simulation of active *Star* protein needs ATP and part of steroidogenesis is taken place in the mitochandria.
-![adult Leydig cell](https://raw.githubusercontent.com/CleanYANG/HONG-s-page/main/assets/img/leydig.jpg)
 Most ATP is systhesised from mitochandria. Clue is Mitochandria ! *Stgart* might be invovled the metobolism in the both Leydig cells and germ cells. Germ cells require energy to maintain the proliferation and maturation.
-
-![metabolism of germ cell](https://raw.githubusercontent.com/CleanYANG/HONG-s-page/main/assets/img/germ.jpg)
-
+<!-- Only include these images for this blog -->
+<div class="side-by-side-images">
+  <img src="https://raw.githubusercontent.com/CleanYANG/HONG-s-page/main/assets/img/leydig.jpg" alt="Picture 1">
+  <img src="https://raw.githubusercontent.com/CleanYANG/HONG-s-page/main/assets/img/germ.jpg" alt="Picture 2">
+</div>
 ## 'Excellent !' I cried, 'Elementary'
 Let's zoom in. What is happening in the mitochandria ?
 <!-- Only include these images for this blog -->
