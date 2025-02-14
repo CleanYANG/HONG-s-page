@@ -2,7 +2,6 @@
 layout: post
 title: Research Project IV
 featured-img: cover6
-thumbnail-img: cover6_thumb
 ---
 # Project *IV* : Classification testis section by convolution neural network
 This project is nothing to do with *Stgart*. This is about my eyes.

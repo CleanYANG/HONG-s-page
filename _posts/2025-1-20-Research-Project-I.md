@@ -2,7 +2,6 @@
 layout: post
 title: Research Project I
 featured-img: cover3
-thumbnail-img: cover3_thumb
 ---
 # Project *I*: *Stgart* in the germ cells
 In the research background section, you already know my research is revealing the function of lncRNAs in the mouse spermatogenesis. 

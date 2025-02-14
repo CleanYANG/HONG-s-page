@@ -2,7 +2,6 @@
 layout: post
 title: Research Project III
 featured-img: cover5
-thumbnail-img: cover5_thumb
 ---
 # Project *III* : Stgart in energy metabolism.
 ## The function of *Stgart* is more than those.

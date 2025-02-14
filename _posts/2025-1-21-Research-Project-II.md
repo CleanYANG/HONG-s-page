@@ -2,7 +2,6 @@
 layout: post
 title: Research Project II
 featured-img: cover4
-thumbnail-img: cover4_thumb
 ---
 # Project *II* : *Stgart* in the steroidogenesis. 
 ## What else the *Stgart* can do

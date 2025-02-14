@@ -2,7 +2,6 @@
 layout: post
 title: Future research interests
 featured-img: cover7
-thumbnail-img: cover7_thumb
 ---
 
 ## Future research interests
