@@ -1,13 +1,13 @@
 # coding: utf-8
 
 Gem::Specification.new do |spec|
-  spec.name          = "jekyll-sleek"
-  spec.version       = "0.1.9"
-  spec.authors       = ["Jan Czizikow"]
-  spec.email         = ["jan.czizikow@gmail.com"]
+  spec.name          = "HONG-s-Page"
+  spec.version       = "0.0.1"
+  spec.authors       = ["HONG YANG"]
+  spec.email         = ["hongyang9710@gmail.com"]
 
-  spec.summary       = %q{Sleek is a modern Jekyll theme focused on speed performance & SEO best practices.}
-  spec.homepage      = "https://janczizikow.github.io/sleek/"
+  spec.summary       = %q{This theme is from theme Sleek.}
+  spec.homepage      = "https://cleanyang.github.io/HONG-s-page/"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").select do |f|
